@@ -1,0 +1,17 @@
+{
+  "name": "remove-nm",
+  "version": "0.0.1",
+  "main": "src/index.js",
+  "type": "module",
+  "bin": {
+    "execute": "src/index.js"
+  },
+  "keywords": [],
+  "author": "loushiklk",
+  "license": "ISC",
+  "description": "A command line tool to remove folder and files from a directory based on a regex",
+  "dependencies": {
+    "gradient-string": "^2.0.2",
+    "inquirer": "^9.3.1"
+  }
+}
