@@ -25,6 +25,7 @@ Install it globally by running
 ```
 npm i -g remove-nm
 ```
+
 then
 
 ```
@@ -42,7 +43,7 @@ The name of the directory will be parent directory under which your files or fol
 `-h, --help, -f, --files, -i=<folder,folder>, --ignore=<folder,folder> (ignore folders)`
 
 ## 🔗 Links
+
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://loushik.dev/)
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/loushik/)
 [![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/loushikgiri1)
-

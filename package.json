@@ -1,9 +1,11 @@
 {
   "name": "remove-nm",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "src/index.js",
   "type": "module",
-  "bin": "./src/index.js",
+  "bin": {
+    "remove-nm": "src/index.js"
+  },
   "keywords": [
     "rm",
     "node_modules",

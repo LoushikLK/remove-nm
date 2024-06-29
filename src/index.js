@@ -2,10 +2,10 @@
 
 "use strict";
 
-import { existsSync, lstatSync, readdirSync, rmdirSync, unlinkSync } from "fs";
-import path from "path";
+import { existsSync, lstatSync, readdirSync } from "fs";
 import gradient from "gradient-string";
 import inquirer from "inquirer";
+import path from "path";
 import { removeFiles, removeFolderRecursive } from "./remove.js";
 
 const printError = (error) => {
