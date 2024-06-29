@@ -3,10 +3,13 @@
   "version": "0.0.1",
   "main": "src/index.js",
   "type": "module",
-  "bin": {
-    "execute": "src/index.js"
-  },
-  "keywords": [],
+  "bin": "./src/index.js",
+  "keywords": [
+    "rm",
+    "node_modules",
+    "remove-node-modules",
+    "clear-node-modules"
+  ],
   "author": "loushiklk",
   "license": "ISC",
   "description": "A command line tool to remove folder and files from a directory based on a regex",
