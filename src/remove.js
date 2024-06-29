@@ -1,14 +1,14 @@
-import { rmdirSync, unlinkSync } from "fs";
+import { rmSync, unlinkSync } from "fs";
 import Spinner from "./loader.js";
 
 const removeFolderRecursive = async (paths) => {
   await Promise.all(
-    paths.map(async (path) => {
+    paths.map(async (path, index) => {
       return new Promise((resolve, reject) => {
         const spinner = new Spinner(`Removing ${path}`, index + 1);
         spinner.start();
         try {
-          rmdirSync(path, { recursive: true });
+          rmSync(path, { recursive: true });
           spinner.setText("Removed " + path + " ✔");
         } catch (error) {
           spinner.setText("Failed to remove " + path + " ❌");
@@ -41,4 +41,4 @@ const removeFiles = async (paths) => {
   );
 };
 
-export { removeFolderRecursive, removeFiles };
+export { removeFiles, removeFolderRecursive };
